@@ -1,62 +1,49 @@
-
 import java.util.Scanner;
 
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-/**
- *
- * @author asus
- */
 public class Punto5 {
     
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
          
-        int manzana, piña, pera, naranja, fresas, melon,num,calo;
+        int Manzana, Piña, Pera, Naranja, Fresas, Melon, Numero, Calorias;
       
-        System.out.println("****ensalada de frutas****");
+        System.out.println("-----ENSALADA DE FRUTAS-----");
         
-        manzana = 52;
-        piña = 55;
-        pera = 55;
-        naranja = 45;
-        fresas = 32;
-        melon = 54;
+        Manzana = 25;
+        Piña = 16;
+        Pera = 18;
+        Naranja = 25;
+        Fresas = 32;
+        Melon = 13;
         
-        System.out.println("cuantas manzanas comiste?: ");
-        num = entrada.nextInt();
-        manzana = num * manzana;
+        System.out.println("Cuantas manzanas comiste?: ");
+        Numero = entrada.nextInt();
+        Manzana = Numero * Manzana;
         
-        System.out.println("cuantas piñas comiste?: ");
-        num = entrada.nextInt();
-        piña = num * piña;
+        System.out.println("Cuantas piñas comiste?: ");
+        Numero = entrada.nextInt();
+        Piña = Numero * Piña;
         
-        System.out.println("cuantas peras comiste?: ");
-        num = entrada.nextInt();
-        pera = num * pera;
+        System.out.println("Cuantas peras comiste?: ");
+        Numero = entrada.nextInt();
+        Pera = Numero * Pera;
         
-        System.out.println("cuantas naranjas comiste?: ");
-        num = entrada.nextInt();
-        naranja = num * naranja;
+        System.out.println("Cuantas naranjas comiste?: ");
+        Numero = entrada.nextInt();
+        Naranja = Numero * Naranja;
         
-        System.out.println("cuantas fresas comiste?: ");
-        num = entrada.nextInt();
-        fresas = num * fresas;
+        System.out.println("Cuantas fresas comiste?: ");
+        Numero = entrada.nextInt();
+        Fresas = Numero * Fresas;
         
-        System.out.println("cuantas melones comiste?: ");
-        num = entrada.nextInt();
-        melon = num * melon;
+        System.out.println("Cuantos melones comiste?: ");
+        Numero = entrada.nextInt();
+        Melon = Numero * Melon;
         
-        calo = manzana + piña + pera + naranja + fresas + melon;
+        Calorias = Manzana + Piña + Pera + Naranja + Fresas + Melon;
         
-        System.out.println("el numero de calorias es: "+calo);
+        System.out.println("el numero de calorias es: "+Calorias);
         
     }
     
 }
-
-
