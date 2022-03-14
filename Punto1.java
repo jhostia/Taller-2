@@ -1,7 +1,9 @@
+import java.util.Scanner;
+
 public class Punto1 {
     
     public static void main(String[] args) { 
-        int x = 8;
+        int x = 7;
         
         System.out.printf("x = %d\n",x );
         System.out.printf("El valor de %d + %d es %d\n",x,x,(x + x) );
